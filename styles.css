@@ -127,3 +127,35 @@ a:link {
     width: 500px;
 }
 
+.Fourth-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #556e92;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 2ch;
+    color: azure;
+}
+
+.Inside-banner {
+    font-size: 10px;
+}
+
+.bigger-text-banner {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.last-button {
+    border-color: whitesmoke;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10%;
+    padding: 10px;
+}
