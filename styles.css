@@ -57,7 +57,7 @@ a:link {
 }
 
 .right-text {
-    background-color: rgb(107, 107, 107);
+    background-color: rgb(141, 142, 143);
     text-align: center;
     padding: 50px;
 }
@@ -68,3 +68,40 @@ a:link {
     display: inline-flex;
     border-radius: 10%;
 }
+
+.SP-text {
+    font-size: 36px;
+    text-align: center;
+    padding: 50px;
+}
+
+.pics-and-texts {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics,
+.pic-text {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+}
+
+.pic-show {
+    border-color: rgb(68, 97, 177);
+    border-width: 7 px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.pic {
+    width: 107px;
+    height: auto;
+    text-align: center;
+}
+
+
