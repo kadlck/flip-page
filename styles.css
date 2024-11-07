@@ -80,6 +80,7 @@ a:link {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .pics,
@@ -104,4 +105,25 @@ a:link {
     text-align: center;
 }
 
+.Third-part {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+    background-color: rgb(209, 208, 208);
+}
+
+.quote {
+    text-wrap: pretty;
+    text-align: left;
+    width: 500px;
+}
+
+.citation {
+    text-align: right;
+    font-size: small;
+    width: 500px;
+}
 
